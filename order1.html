@@ -1,0 +1,48 @@
+./<html>
+    <head>
+        <title>ATHY'S PIZZA SHOP</title>
+    </head>
+    <body>
+      <marquee bgcolor="RED"><h1><img src="./img/logo1.png" width="1000" height="75"></h1></marquee>
+      <hr size="10">
+      <h3>ORDER</h3>
+      <hr size="10">
+      <nav>
+        <div style="background-color: rgb(97, 97, 97); color: aliceblue; padding:10px ;">
+              <a href="./index.html">Home</a>&emsp;
+              <a href="./menu.html">Menu</a>&emsp;
+              <a href="./order1.html">Order</a>&emsp;
+              <a href="./contact.html">Contact</a>&emsp;
+      </div>
+       </nav>
+       <form>
+        <label for="NAME">ENTER YOUR NAME : </label>
+        <input type="text" name="NAME" placeholder="ENTER YOUR NAME" required>
+        <br>
+        <br>
+        <label for="NAME">ENTER YOUR E-MAIL ID : </label>
+        <input type="text" name="mai;" placeholder="E-MAIL ID" required>
+        <br>
+        <br>
+        <label for="MOBNO">ENTER YOUR CONTACT NUMBER : </label>
+        <input type="number" name="MOBNO" placeholder="CONTACT NUMBER" required>
+        <br>
+        <br>
+        <label for="ADD">ENTER YOUR ADDRESS :</label>
+        <input type="text" name="ADD" placeholder="ADDRESS" required>
+        <br>
+        <br>
+        <label for="NAME">SELECT PAYMENT OPTION : </label>&emsp;&emsp;
+        <input type="radio" name="payment"> Cash on Delivery&emsp;
+        <input type="radio" name="payment"> Net-Banking&emsp;
+        <input type="radio" name="payment"> UPI PAYMENT
+        <br><br><br>
+        <!-- <button  type="button" onclick="alert('Order placed successfully')"> Place order</button> -->
+        <input type="submit" value="Place Order" onclick=" alert('Order placed successfully')">
+        <input type="reset" value="reset">
+
+
+
+       </form>
+    </body>
+</html>
